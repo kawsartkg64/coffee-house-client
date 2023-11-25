@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Root from './components/Root.jsx';
 import Home from './Home.jsx';
+import CoffeeAdd from './components/CoffeeAdd.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/coffeeAdd',
-        element:
+        element:<CoffeeAdd></CoffeeAdd>,
       }
     ]
   },
